@@ -29,7 +29,7 @@ class Blockchain {
   }
 
   createGenesisBlock() {
-    return new Block(0, '01/01/2024', { email: '', password: '' }, '0');
+    return new Block(0, Date, { email: '', password: '' }, '0');
   }
 
   getLatestBlock() {
